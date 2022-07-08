@@ -5,6 +5,7 @@
 The extracted terms are stored in a .csv file (a path for this filename is also required). 
 
 The systems architecture is shown in the following Figure.
+
 ![alt text](https://github.com/geofila/KGExtraction/blob/main/System%20Architecture.png)
 
 ### Extract algorithm
