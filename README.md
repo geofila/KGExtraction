@@ -22,6 +22,6 @@ python extract.py  --path "pdf_corpus" --outp_filename "extraxted_terms.csv" --m
 ```
 
 
-#### #Requirements
+#### Requirements
 - sentence-transformers
 - pyPDF2
