@@ -7,7 +7,8 @@ The extracted terms are stored in a .csv file (a path for this filename is also 
 The systems architecture is shown in the following Figure.
 ![alt text](https://github.com/geofila/KGExtraction/blob/main/System%20Architecture.png)
 
-##Extract algorithm
+### Extract algorithm
+
 The following command will read each one of the texts on the folder *"pdf_corpus"* and will store the extracted terms on the file *"extraxted_terms.csv."*
 ```
 python extract.py  --path "pdf_corpus" --outp_filename "extraxted_terms.csv"
@@ -21,6 +22,6 @@ python extract.py  --path "pdf_corpus" --outp_filename "extraxted_terms.csv" --m
 ```
 
 
-##Requirements
+#### #Requirements
 - sentence-transformers
 - pyPDF2
